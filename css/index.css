@@ -11,127 +11,69 @@
     --cor2: #161616;
     --cor3: #363636;
     --cor4: #868686;
-}
-
-hr {
-    border-color: #000000;
-    margin: 20px 100px 20px 100px
+    --cor5: #131313;
 }
 
 body {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     color: var(--cor0);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
 }
 
-header {
-    margin: 50px 100px 0px 0px;
+nav {
     margin: auto;
-}
-
-header > h2 {
-    text-align: left;
-    padding: 20px 40px 20px 50px;
-}
-
-header > nav {
-    margin: auto;
-    font-weight: bold;
-    padding: 10px;
     text-align: justify;
-}
-
-header > nav > a {
-    color: var(--cor0);
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    transition-duration: 0.5s;
-    display: inline-block;
-}
-
-header > nav > a:hover {
-    background-color: var(--cor0);
-    color: var(--cor1);
-}
-
-main section#apresentaçao {
-    margin: auto;
-    padding: 20px 0px 0px 20px;
-    text-align: left;
-    display: inline-block;
-}
-
-main section#apresentaçao img {
-    width: 400px;
-    padding: 0% 0% 0% 115%;
-}
-
-main section#sobre-mim {
-    text-align: center;
-}
-
-main section#sobre-mim > p {
-    max-width: 550px;
-    margin: auto;
-}
-
-main section#sobre-mim > nav {
-    padding: 30px;
     font-weight: bold;
-}
-
-main section#sobre-mim nav > a {
-    background-color: var(--cor2);
-    color: var(--cor0);
-    text-decoration: none;
     padding: 10px;
-    border-radius: 5px;
-    transition-duration: 0.5s;
     display: inline-block;
 }
 
-main section#sobre-mim nav > a:hover {
-    background-color: var(--cor0);
+nav a {
+    color: var(--cor0);
+    background-color: var(--cor5);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+nav a:hover{
     color: var(--cor1);
+    background-color: var(--cor0);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-main section#projetos {
-    text-align: center;
+main {
+    padding: 10px;
 }
 
-main section#certificados {
-    text-align: center;
-}
-
-main section#skills {
-    text-align: center;
-}
-
-main section#skills img {
-    width: 50px;
+figure img {
+    width: 25%;
+    padding: 20px 20px;
 }
 
 footer {
-    background-color: var(--cor1);
     color: var(--cor0);
-    padding: 10px;
-    font-size: 0.9em;
-    text-align: center;
+    font-weight: bolder;
 }
 
 footer a {
-    background-color: var(--cor3);
-    text-decoration: none;
     color: var(--cor0);
+    background-color: var(--cor3);
     padding: 5px;
+    text-decoration: none;
     border-radius: 5px;
-    display: inline-block;
+    transition-duration: 0.5s;
 }
 
 footer a:hover {
-    background-color: var(--cor0);
     color: var(--cor1);
+    background-color: var(--cor0);
     padding: 5px;
     border-radius: 5px;
 }
