@@ -37,7 +37,7 @@ nav a {
     text-decoration: none;
     display: inline-block;
     transition-duration: 0.5s;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 nav a:hover{
@@ -45,7 +45,7 @@ nav a:hover{
     background-color: var(--cor0);
     padding: 10px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 main {
