@@ -11,11 +11,12 @@
     --cor2: #161616;
     --cor3: #363636;
     --cor4: #868686;
-    --cor5: #131313;
+    --cor5: #272727;
+    --cor6: #181818;
 }
 
 body {
-    background-color: var(--cor1);
+    background-color: var(--cor6);
     color: var(--cor0);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
