@@ -67,7 +67,7 @@ h2 {
 .div-textos > button {
     margin-top: 30px;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     background-color: #BE8082;
     cursor: pointer;
@@ -81,6 +81,24 @@ h2 {
 
 .div-textos > button:active {
     opacity: 0.8;
+}
+
+figure {
+    margin-top: 15%;
+    margin-left: 160px;
+}
+
+figure > a > img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+figure > a > img:hover {
+    opacity: 0.8;
+}
+
+figure > a > img:active {
+    opacity: 0.6;
 }
 
 .div-banner > img {
