@@ -19,11 +19,16 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
 }
 
 h2 {
-    margin-right: 20%;
+    margin-right: 10%;
     cursor: pointer;
     font-size: 25px;
     font-weight: 700;
@@ -83,32 +88,30 @@ h2 {
     opacity: 0.8;
 }
 
-figure {
-    margin-top: 15%;
-    margin-left: 160px;
-}
-
-figure > a > img {
-    width: 30px;
-    margin-right: 10px;
-}
-
-figure > a > img:hover {
-    opacity: 0.8;
-}
-
-figure > a > img:active {
-    opacity: 0.6;
-}
-
 .div-banner > img {
     height: 60%;
     display: inline-block;
     position: absolute;
 }
 
-img {
+.img-banner {
     position: relative;
     right: 160px;
     top: 25%;
+    transform: translateY(0px);
+    animation: animacao 5s ease-in-out infinite;
+}
+
+@keyframes animacao {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
