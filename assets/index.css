@@ -126,7 +126,7 @@ h2 {
 
 .section-mae {
     margin-top: 200px;
-    width: 400px;
+    width: 600px;
 }
 
 .section-quemeusou {
@@ -135,6 +135,7 @@ h2 {
 
 .section-quemeusou p {
     font-weight: 300;
+    font-size: 18px;
 }
 
 .section-quemeusou h2 {
@@ -146,4 +147,8 @@ h2 {
 
 .section-ferramentas img {
     width: 40px;
+}
+
+footer {
+    margin-top: 20px;
 }
