@@ -19,7 +19,6 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    align-items: center;
 }
 
 .header-logo {
@@ -123,4 +122,28 @@ h2 {
     100% {
         transform: translateY(0px);
     }
+}
+
+.section-mae {
+    margin-top: 200px;
+    width: 400px;
+}
+
+.section-quemeusou {
+    margin-bottom: 20px;
+}
+
+.section-quemeusou p {
+    font-weight: 300;
+}
+
+.section-quemeusou h2 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-ferramentas img {
+    width: 40px;
 }
