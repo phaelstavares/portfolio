@@ -124,31 +124,24 @@ h2 {
     }
 }
 
-.section-mae {
-    margin-top: 200px;
-    width: 600px;
+@media(min-width: 1400px) {
+    .div-textos {
+        margin-top: 13%;
+    }
+
+
 }
 
-.section-quemeusou {
-    margin-bottom: 20px;
-}
+@media (max-width: 1400px) {
+    .div-textos {
+        margin-top: 15%;
+    }
 
-.section-quemeusou p {
-    font-weight: 300;
-    font-size: 18px;
-}
+    .img-banner {
+        right: 90px;
+    }
 
-.section-quemeusou h2 {
-    margin-bottom: 10px;
-    font-size: 35px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.section-ferramentas img {
-    width: 40px;
-}
-
-footer {
-    margin-top: 20px;
+    .div-banner > img {
+        height: 50%;
+    }
 }
