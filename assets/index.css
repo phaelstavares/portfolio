@@ -128,8 +128,6 @@ h2 {
     .div-textos {
         margin-top: 13%;
     }
-
-
 }
 
 @media (max-width: 1400px) {
@@ -143,5 +141,14 @@ h2 {
 
     .div-banner > img {
         height: 50%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .img-banner {
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        top: 500px;
     }
 }
