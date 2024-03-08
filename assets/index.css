@@ -156,14 +156,26 @@ h2 {
 }
 
 @media (max-width: 1150px) {
+    body {
+        padding-top: 30px;
+        padding-left: 50px;
+        background: #151138;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    .header-logo {
+        margin-right: 100px;
+    }
+
     main {
         text-align: center;
     }
 
     .div-textos {
         margin-top: 6%;
-        text-align: left;
-        text-align: center;
     }
 
     .img-banner {
@@ -173,5 +185,36 @@ h2 {
 
     .div-banner > img {
         height: 40%;
+    }
+}
+
+@media (max-width: 1020px) {
+    body {
+        padding-left: 0;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .header-logo {
+        padding-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .nav-links > a {
+        margin: 0 50px;
+    }
+
+    .img-banner {
+        top: 500px;
+        left: 27%;
+    }
+}
+
+@media (max-width: 950px) {
+    .img-banner {
+        top: 500px;
+        left: 25%;
     }
 }
