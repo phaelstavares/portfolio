@@ -145,18 +145,33 @@ h2 {
 }
 
 @media (max-width: 1250px) {
-    .img-banner {
-        display: flex;
-        flex-direction: column;
-        left: 25%;
-        top: 400px;
-    }
-
     .div-textos {
         margin-top: 6%;
+    }
+
+    .img-banner {
+        left: 40%;
+        top: 350px;
     }
 }
 
 @media (max-width: 1150px) {
+    main {
+        text-align: center;
+    }
 
+    .div-textos {
+        margin-top: 6%;
+        text-align: left;
+        text-align: center;
+    }
+
+    .img-banner {
+        left: 35%;
+        top: 480px;
+    }
+
+    .div-banner > img {
+        height: 40%;
+    }
 }
