@@ -97,7 +97,7 @@ h2 {
 }
 
 .div-banner > img {
-    height: 60%;
+    width: 40%;
     display: inline-block;
     position: absolute;
 }
@@ -140,7 +140,7 @@ h2 {
     }
 
     .div-banner > img {
-        height: 50%;
+        width: 40%;
     }
 }
 
@@ -150,8 +150,8 @@ h2 {
     }
 
     .img-banner {
-        left: 40%;
-        top: 350px;
+        left: 35%;
+        top: 400px;
     }
 }
 
@@ -184,7 +184,7 @@ h2 {
     }
 
     .div-banner > img {
-        height: 40%;
+        width: 40%;
     }
 }
 
@@ -208,13 +208,6 @@ h2 {
 
     .img-banner {
         top: 500px;
-        left: 27%;
-    }
-}
-
-@media (max-width: 950px) {
-    .img-banner {
-        top: 500px;
-        left: 25%;
+        left: 30%;
     }
 }
