@@ -148,7 +148,15 @@ h2 {
     .img-banner {
         display: flex;
         flex-direction: column;
-        left: 100px;
-        top: 500px;
+        left: 25%;
+        top: 400px;
     }
+
+    .div-textos {
+        margin-top: 6%;
+    }
+}
+
+@media (max-width: 1150px) {
+
 }
