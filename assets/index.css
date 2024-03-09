@@ -243,3 +243,55 @@ h2 {
         width: 60%;
     }
 }
+
+@media (max-width: 600px) {
+    .nav-links a {
+        margin: 0 10px;
+    }
+
+    body {
+        padding-top: 20px;
+    }
+
+    header {
+        margin-bottom: 30px
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .header-logo img {
+        width: 40px;
+    }
+
+    .header-logo h2 {
+        padding-top: 8px;
+    }
+
+    .div-textos {
+        width: 300px;
+    }
+
+    .div-textos > p {
+        font-size: 15px;
+    }
+
+    .div-textos > h1 {
+        font-size: 20px;
+    }
+
+    .div-textos > button {
+        font-size: 15px;
+    }
+
+    .img-banner {
+        top: 420px;
+        left: 14%;
+    }
+
+    .div-banner > img {
+        width: 75%;
+    }
+}
