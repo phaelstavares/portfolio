@@ -182,10 +182,6 @@ h2 {
         left: 35%;
         top: 480px;
     }
-
-    .div-banner > img {
-        width: 40%;
-    }
 }
 
 @media (max-width: 1020px) {
@@ -207,7 +203,43 @@ h2 {
     }
 
     .img-banner {
-        top: 530px;
+        top: 510px;
         left: 30%;
+    }
+
+    .div-banner > img {
+        width: 45%;
+    }
+}
+
+@media (max-width: 850px) {
+    .img-banner {
+        left: 28%;
+    }
+
+    .div-banner > img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav-links > a {
+        margin: 0 20px;
+    }
+
+    .div-textos > p {
+        font-size: 17px;
+    }
+
+    .div-textos > h1 {
+        font-size: 25px;
+    }
+
+    .img-banner {
+        left: 22%;
+    }
+
+    .div-banner > img {
+        width: 60%;
     }
 }
