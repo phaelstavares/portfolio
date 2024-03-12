@@ -295,3 +295,18 @@ h2 {
         width: 75%;
     }
 }
+
+@media (max-width: 306px) {
+    header {
+        margin-bottom: 20px;
+    }
+
+    .img-banner {
+        top: 440px;
+        left: 9%;
+    }
+
+    .div-banner > img {
+        width: 85%;
+    }
+}
