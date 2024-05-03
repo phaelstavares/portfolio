@@ -46,6 +46,7 @@ h2 {
     font-size: 18px;
     font-weight: 300;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .nav-links > a:hover {
